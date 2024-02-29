@@ -10,7 +10,7 @@ const About = () => {
   return (
     <>
       <h1>About</h1>
-      <p>This is the simple React Program...!</p>
+      <p>This is a sample React Router program.</p>
     </>
   );
 }
