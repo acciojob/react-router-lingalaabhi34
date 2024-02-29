@@ -3,7 +3,7 @@ import React from "react";
 import './../styles/App.css';
 import { BrowserRouter,Link,Routes,Route } from "react-router-dom";
 const Home = () => {
-  return <h1>Welcome to the website</h1>;
+  return <h1>Welcome to my website!</h1>;
 }
 
 const About = () => {
@@ -21,11 +21,11 @@ const App = () => {
       {/* Do not remove the main div */}
 
 <Link to="">Home</Link>
-      <Link to="/About">About</Link>
+      <Link to="/about">About</Link>
 
       <Routes>
         <Route path="" element={<Home />} />
-        <Route path="/About" element={<About />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </div>
   </BrowserRouter>
